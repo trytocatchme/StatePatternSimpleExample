@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="56,60,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="58,49,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="58,132,0,0" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="307,69,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="58,91,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
